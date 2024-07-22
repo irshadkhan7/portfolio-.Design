@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+}
+.main{
+    background-color: black;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 711px;
+}
+ul li{
+list-style: none;
+margin-left: 62px;
+margin-top: 27px;
+font-size: 20px;
+}
+ul li a{
+text-decoration: none;
+color:  #F5F5F5;
+/* font-family: Arial; */
+font-weight: bold;
+
+}
+
+ul li a:hover{
+    /* background-color: orange; */
+    color: orangered;
+
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 470px;
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    margin-top: 13px;
+    color: white;
+    border-radius: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    background: #1D1D1D;
+}
+
+.banner img{
+    width: 1540px;
+    height: 650px;
+}
+.intro{
+width: 1536px;
+height: 700px;
+top: 720px;
+margin-top: -5px;
+background-color: #000000;
+}
+
+.card{
+    width: 500px;
+  height: 280px;
+  /* background-color: red; */
+  margin-left: 101px;
+  padding: 45px;
+  color: white;
+}
+.bts:hover{
+    background-color: red;
+}
+.bt:hover{
+    background-color: aqua;
+}
+.crd5 button:hover{
+    background-color: red;
+}
+.profile1 button:hover{
+    background-color: rgb(15, 23, 244);
+}
+.role:hover{
+    background-color: orangered;
+
+}
+.bt{
+ width: 181px;
+height: 44px;
+margin-top: 30px;
+padding: 10px 24px 10px 24px;
+border-radius: 8px 0px 0px 0px;
+}
+
+.bts{
+    width: 181px;
+height: 44px;
+margin-top: 30px;
+padding: 10px 24px 10px 24px;
+border-radius: 8px 0px 0px 0px;
+background-color: #0948B4;
+color: white;
+
+}
+.role{
+    display: flex;
+    width: 1020px;
+    gap: 160px;
+    margin-left: 400px;
+    margin-top: 245px;
+    padding: 20px;
+    background-color: white;
+}
+.img1{
+    width: 57%;
+    margin-left: 850px;
+    height: 502px;
+    margin-top: -435px;
+}
+
+.exp{
+    background-color: white;
+}
+.exp h1{
+    margin-left: 140px;
+    padding: 20;
+}
+.crd3{
+    background-color: white;
+    display: flex;
+}
+.crd3 img{
+    width: 20%;
+  padding: 102px;
+}
+.crd3 h2{
+   margin-top: 110px; 
+}
+
+.crd3 p{
+    margin-top: 158px;
+  margin-left: -241px;
+}
+.logo{
+    background-color: white;
+}
+.logo img{
+    width: 86px;
+  padding: 40px;
+  margin-left: 67px;
+}
+.icon{
+    background-color: white;
+    height: 360px;
+}
+.icon{
+    display: flex;
+    height: 200px;
+}
+.icon img{
+    width: 8
+    154px;
+    padding: 40px;
+    margin-left: 67px;
+    height: 90px;
+}
+/* cards */
+
+.cards{
+    background-color: white;
+    height: 650px;
+    display: flex;
+
+}
+
+.crd5{
+    background-color: white; 
+    width: 485px;
+
+}
+.crd5 img{
+    width: 477px;
+  margin-left: 73px;
+  margin-top: 130px;
+}
+.crd5 p{
+  margin-left: 80px;
+  padding: 4px;
+}
+.crd5 h2{
+  margin-left: 80px;
+  padding: 4px;
+}
+.crd5 button{
+    width: 470px;
+  height: 40px;
+  background-color:#0948B4;
+  ;
+  padding: 3px;
+  margin-left: 22px;
+  font-size: 17px;
+}
+.edu{
+    background-color: white;
+    height: 450px;
+}
+.edu h1{
+    padding-left: 125px;
+  margin-bottom: 10px;
+}
+.edu p{
+    padding-left: 125px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.profile img{
+    margin-left: 887px;
+    margin-top: -657px;
+    width: 13%;
+    margin-bottom: 104px;
+}
+
+.profile p{
+    margin-left: 756px;
+  margin-top: -100px;
+
+}
+.profile1 {
+    height: 500px;
+}
+.profile1 img{
+  border-radius: 109px;
+  width: 7%;
+  margin-left: 688px;
+  margin-top: -71px;
+  border: 5px solid #24231b;
+}
+.profile1 h1{
+    color: white;
+  margin-left: 633px;
+}
+.profile1 p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.profile1 button {
+    text-align: center;
+  height: 30px;
+  width: 126px;
+  background-color: rgb(7, 6, 4);
+  color: white;
+  padding: 0px;
+  margin-left: 704px;
+  margin-top: 50px;
+}
+footer{
+ background-color: white;
+  text-align: center;
+  padding: 14px;
+  font-size: 19px;
+  margin-top: 65px;
+}
